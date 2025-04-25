@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Anzal Hussain Anzal, a Software Engineering student and Urdu poet from Gilgit-Baltistan.">
+    <meta name="keywords" content="Software Engineer, Urdu Poet, AI, Machine Learning, Poetry, Anzal Hussain Anzal">
+    <meta name="author" content="Anzal Hussain Anzal">
+    <title>Anzal Hussain Anzal | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                ANZAL <span>HUSSAIN</span>
+            </div>
+            <div class="links" role="navigation">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#poetry">Poetry</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#jashn">Jashn-e-Sukhan</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a href="#contact">Contact</a></div>
+            </div>
+            <button class="hamburg" aria-label="Open menu" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div class="dropdown" role="navigation">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#poetry">Poetry</a>
+                <a href="#jashn">Jashn-e-Sukhan</a>
+                <a href="#contact">Contact</a>
+                <button class="cancel" aria-label="Close menu">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="1000">
+                <img src="./img.jpg" alt="Anzal Hussain Anzal">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Anzal</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><span class="cursor">|</span></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">"Coding the Future, Writing the Soul. I'm a Software Engineering student and Urdu poet from Gilgit-Baltistan."</p>
+                <div class="btn-group" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <a href="#projects" class="btn">View My Tech Projects</a>
+                    <a href="#poetry" class="btn">Explore My Poetry</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">About Me</h2>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                I’m a Software Engineering student at <strong>Karakoram International University</strong>,
+                with a growing expertise in <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>,
+                and <strong>Computer Vision</strong>. I’m skilled in <strong>Python, C++, SQL, Excel</strong>, and
+                <strong>Tableau</strong>, and I’ve completed practical projects in <strong>data mining</strong> and
+                <strong>e-commerce analytics</strong> using <strong>MySQL</strong>.
+            </p>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                Beyond code, I’m a passionate <strong>Urdu poet</strong>, writing ghazals that explore love, loss,
+                memory, and existence. I founded <strong>Jashn-e-Sukhan</strong>, a university literary society to
+                revive poetic culture among youth. My world is both structured and emotional — where neural networks
+                meet nazms.
+            </p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="projects-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Tech Projects</h2>
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                <h3>Topical Chatbot</h3>
+                <p><strong>Tools:</strong> TensorFlow, Huggingface</p>
+                <p>A Transformer-based chatbot leveraging the Amazon Topical Chat dataset (8,000+ conversations, 184,000+ sentiment-annotated messages). Designed for coherent, sentiment-aware responses in domain-specific interactions, achieving 87% precision, 84% recall, and 85% F1-score. Applications include education, healthcare, and customer support.</p>
+                <p><strong>Future Work:</strong> Diverse datasets, reinforcement learning for enhanced response quality.</p>
+                <p><a href="https://github.com/Anzal-hussain-Anzal/NLP-chatbot-Project-" target="_blank">View on GitHub</a></p>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                <h3>Personalized Nutritional & Workout Advisor</h3>
+                <p><strong>Tools:</strong> pandas, scikit-learn, Gradio</p>
+                <p>A machine learning-driven application providing tailored dietary and exercise recommendations based on user health data, preferences, and goals. Features a Random Forest Regressor for calorie prediction, a food recommendation system (e.g., Vegan, Vegetarian), and an exercise suggestion module.</p>
+                <p><strong>Future Work:</strong> Real-time database updates, advanced predictive models.</p>
+                <p><a href="https://github.com/Anzal-hussain-Anzal/-Personalized-Nutritional-and-Workout-Advisor" target="_blank">View on GitHub</a></p>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                <h3>Face Expression Recognition Using CNN</h3>
+                <p><strong>Tools:</strong> TensorFlow, Keras</p>
+                <p>A Convolutional Neural Network (CNN) model to classify seven facial expressions (anger, disgust, fear, happiness, sadness, surprise, neutral) using the Expression in-the-Wild dataset. Processes grayscale 48x48 pixel images with high accuracy via preprocessing and hyperparameter tuning. Applications include human-computer interaction and psychological analysis.</p>
+                <p><strong>Future Work:</strong> Transfer learning with VGG/ResNet, real-time recognition.</p>
+                <p><a href="https://github.com/Anzal-hussain-Anzal/Face-Expression-Recognition-Using-Convolutional-Neural-Networks-CNN-" target="_blank">View on GitHub</a></p>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                <h3>Road Turn Detection Using YOLOv8</h3>
+                <p><strong>Tools:</strong> YOLOv8, OpenCV</p>
+                <p>An object detection model using YOLOv8 to identify road conditions (right turn, left turn, straight, unexpected) in images from Gilgit, enhancing navigation and safety. Trained on a custom dataset with bounding box annotations, achieving 74.2% precision but 15% recall. Explored hyperparameter tuning for optimization.</p>
+                <p><strong>Future Work:</strong> Data augmentation, advanced tuning for improved recall.</p>
+                <p><a href="https://github.com/Anzal-hussain-Anzal/Object_Detection_Project" target="_blank">View on GitHub</a></p>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                <h3>E-commerce Data Mining Project</h3>
+                <p><strong>Tools:</strong> MySQL, Excel, Tableau</p>
+                <p>Performed customer segmentation, analyzed monthly sales trends, and conducted product affinity analysis for an e-commerce platform.</p>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">
+                <h3>Deep Learning Practice Projects</h3>
+                <p><strong>Status:</strong> In Progress</p>
+                <p>Exploring computer vision experiments and neural network models. More details coming soon!</p>
+            </div>
+            <p class="note" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">More projects coming soon as I dive deeper into AI & machine learning.</p>
+        </div>
+    </section>
+    <section id="poetry">
+        <div class="poetry-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">My Ghazals</h2>
+            <p class="intro" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">Poetry isn’t just words — it’s emotion encoded in rhyme. Here are some of my ghazals, written straight from the soul.</p>
+            <div class="poetry-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                <h3>Ghazal 1</h3>
+                <p class="urdu">
+                    کچھ اس طرح سے میں نقصان کھانے والا تھا،<br>
+                    کہ بے وفاؤں پہ ایمان لانے والا تھا۔<br>
+                    کہیں رقیب ملا ہو گا راستے میں اُسے،<br>
+                    وہ اب تلک نہیں پہنچا جو آنے والا تھا۔<br>
+                    جسے سمجھ میں نہیں آتی عام باتیں بھی،<br>
+                    میں ایسے شخص کو غزلیں سنانے والا تھا۔<br>
+                    ستم تو دیکھیے آخر اسی کو عشق ہوا،<br_SSL
+                    جو خاندان میں واحد کمانے والا تھا۔<br>
+                    اچانک اُس کو خدا یاد آگیا انزل،<br>
+                    ورنہ سینے سے مجھ کو لگانے والا تھا۔
+                </p>
+                <p class="roman">
+                    Kuch is tarah se main nuqsan khaane waala tha,<br>
+                    Ke bewafaon pe imaan lana waala tha.<br>
+                    Kahin raqeeb mila hoga raaste mein usay,<br>
+                    Woh ab tak nahin pahuncha jo aaney waala tha.<br>
+                    Jise samajh mein nahin aati aam baatein bhi,<br>
+                    Main aise shakhs ko ghazlein sunane waala tha.<br>
+                    Sitam to dekhiye aakhir usi ko aashiq hua,<br>
+                    Jo khandan mein waahid kamaney waala tha.<br>
+                    Achanak usko Khuda yaad aaya Anzal,<br>
+                    Wagarna seene se mujhko lagaaney waala tha.
+                </p>
+                <p class="author">Anzal Hussain Anzal</p>
+            </div>
+            <div class="poetry-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                <h3>Ghazal 2</h3>
+                <p class="urdu">
+                    صرف مٹی سے یہ انسان بنا کے رکھنا،<br>
+                    کتنا دشوار ہے آسان بنا کے رکھنا۔<br>
+                    یہ بھی ممکن ہے کہ میں جنگ سے زندہ لوٹوں،<br>
+                    رات کا کھانا مری جان بنا کے رکھنا۔<br>
+                    کھیلنے آئے یا لڑنے کے لیے؟ مرضی ہے۔<br>
+                    بس مرا کام تھا میدان بنا کے رکھنا۔<br>
+                    ایک ہی شخص کو اس دل میں جگہ دے دینا،<br>
+                    ایک ہی دین پہ ایمان بنا کے رکھنا۔<br>
+                    جان کر چیز کوئی بھول کے جانا انزل،<br>
+                    لوٹ کر آنے کا امکان بنا کے رکھنا۔
+                </p>
+                <p class="roman">
+                    Sirf mitti se yeh insaan bana ke rakhna,<br>
+                    Kitna dushwaar hai aasaan bana ke rakhna.<br>
+                    Yeh bhi mumkin hai ke main jang se zinda lootun,<br>
+                    Raat ka khana meri jaan bana ke rakhna.<br>
+                    Khelne aaye ya ladne ke liye? Marzi hai.<br>
+                    Bas mera kaam tha maidan bana ke rakhna.<br>
+                    Ek hi shakhs ko is dil mein jagah de dena,<br>
+                    Ek hi deen pe imaan bana ke rakhna.<br>
+                    Jaan kar cheez koi bhool ke jana Anzal,<br>
+                    Loot kar aane ka imkaan bana ke rakhna.
+                </p>
+                <p class="author">Anzal Hussain Anzal</p>
+            </div>
+            <div class="poetry-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                <h3>Ghazal 3</h3>
+                <p class="urdu">
+                    مجھ کو خود سے جدا کیا تم نے،<br>
+                    قید سے کیوں رہا کیا تم نے؟<br>
+                    یوں مجھے رات چھوڑ کر جانا،<br>
+                    تیسری مرتبہ کیا تم نے۔<br>
+                    وہ ہے دشمن تمہارے خوابوں کا،<br>
+                    اس سے کیوں رابطہ کیا تم نے؟<br>
+                    دل دکھایا ہے وہ بھی شاعر کا،<br>
+                    کتنا اونچا گناہ کیا تم نے۔<br>
+                    تم نے انزل یہاں پہ رقص کیا،<br>
+                    دشت میں کچھ نیا کیا تم نے۔
+                </p>
+                <p class="roman">
+                    Mujh ko khud se juda kiya tum ne,<br>
+                    Qaid se kyun riha kiya tum ne?<br>
+                    Raat yun mujh ko chhod kar jana,<br>
+                    Teesri martaba kiya tum ne.<br>
+                    Woh hai dushman tumhare khwabon ka,<br>
+                    Us se kyun rabita kiya tum ne?<br>
+                    Dil dukhaya hai woh bhi shaayar ka,<br>
+                    Kitna uncha gunah kiya tum ne.<br>
+                    Tum ne Anzal yahan pe raqs kiya,<br>
+                    Dast mein kuch naya kiya tum ne.
+                </p>
+                <p class="author">Anzal Hussain Anzal</p>
+            </div>
+            <div class="poetry-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">
+                <h3>Ghazal 4</h3>
+                <p class="urdu">
+                    جو گھر بنایا تھا ابا نے پائی پائی سے،<br>
+                    بکھر چکا ہے وہ اب آپسی لڑائی سے۔<br>
+                    تمہاری یاد کے جنگل سے میں نکل آیا،<br>
+                    نکل بھی آیا ہوں میں اپنی رہنمائی سے۔<br>
+                    یہ کتنے پیار سے پہناتی تھی مری اماں،<br>
+                    کہ آج ان کی مجھے یاد آئی ٹائی سے۔<br>
+                    پلاؤ زہر کہ یہ ٹھیک ہو سکیں گے طبیب،<br>
+                    مریض مرنے لگے ہیں تری دوائی سے۔<br>
+                    یہ کائنات بھی تقسیم ہوچکی انزل،<br>
+                    کہ اس نے ہاتھ چھڑایا تھا جب کلائی سے۔
+                </p>
+                <p class="roman">
+                    Jo ghar banaya tha aba ne paai paai se,<br>
+                    Bikhar chuka hai woh ab aapsi ladai se.<br>
+                    Tumhari yaad ke jungle se main nikal aaya,<br>
+                    Nikal bhi aaya hoon main apni rehnumai se.<br>
+                    Yeh kitne pyar se pehnati thi meri amaan,<br>
+                    Ke aaj unki mujhe yaad aayi tie se.<br>
+                    Pilao zehar ke yeh theek ho sakenge tabib,<br>
+                    Mareez marne lage hain teri dawai se.<br>
+                    Yeh kainat bhi taqseem ho chuki Anzal,<br>
+                    Ke usne haath chhudaya tha jab kalai se.
+                </p>
+                <p class="author">Anzal Hussain Anzal</p>
+            </div>
+            <div class="poetry-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                <h3>Ghazal  SEA5</h3>
+                <p class="urdu">
+                    میں تری یاد سے کچھ ایسے نکل کر آیا،<br>
+                    جیسے زندان سے قیدی کوئی باہر آیا۔<br>
+                    میں ذرا دشت سے نکلوں تو خبر ہو مجھ کو،<br>
+                    کس کے حصے میں بھلا کتنا سمندر آیا۔<br>
+                    شعر کہتا ہوں تو آرام سا ملتا ہے مجھے،<br>
+                    مجھ کو تنہائی سے لڑنے کا یہ منظر آیا۔<br>
+                    اس گلی قیس نہ جاتا تھا مگر، میں تو گیا،<br>
+                    پھر مرے سر پہ محبت کا جو پتھر آیا۔<br>
+                    خط تو آیا نہ کبھی اُس کا مرے پاس مگر،<br>
+                    خون میں لپٹا ہوا ایک کبوتر آیا۔<br>
+                    اب نہیں دیکھتی وہ ٹھیک سے انزل مجھ کو،<br>
+                    اتنی آسانی سے اُس کو جو میسر آیا۔
+                </p>
+                <p class="roman">
+                    Main teri yaad se kuch aise nikal kar aaya,<br>
+                    Jaise zindan se qaidi koi bahar aaya.<br>
+                    Main zara dasht se nikloon toh khabar ho mujhko,<br>
+                    Kis ke hisse mein bhala kitna samandar aaya.<br>
+                    Shair kehta hoon toh araam sa milta hai mujhe,<br>
+                    Mujhko tanhai se ladne ka yeh manzar aaya.<br>
+                    Iss gali Qais na jata tha magar, main toh gaya,<br>
+                    Phir mere sar pe mohabbat ka jo patthar aaya.<br>
+                    Khat toh aaya nah kabhi uska mere paas magar,<br>
+                    Khoon mein lapta hua ek kabootar aaya.<br>
+                    Ab nahi dekhti woh theek se Anzal mujhko,<br>
+                    Itni aasani se usko jo maseer aaya.
+                </p>
+                <p class="author">Anzal Hussain Anzal</p>
+            </div>
+        </div>
+    </section>
+    <section id="jashn">
+        <div class="jashn-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Jashn-e-Sukhan</h2>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                <strong>Jashn-e-Sukhan</strong> is a literary society I co-founded with fellow poets at KIU. We organize
+                mushairas, bring together local poets, and keep the tradition of Urdu shayari alive.
+            </p>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                <strong>Upcoming Event:</strong> A grand mushaira with guest poets from Gilgit.
+            </p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Contact Me</h2>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">Want to collaborate on a tech project,
+                publish a ghazal, or just talk Marvel? Let’s connect.</p>
+            <form data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                <input type="text" placeholder="Name" required aria-label="Name">
+                <input type="email" placeholder="Email" required aria-label="Email">
+                <textarea placeholder="Message" required aria-label="Message"></textarea>
+                <button type="submit" aria-label="Send message">Send</button>
+            </form>
+            <div class="social-links" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                <a href="mailto:anzal@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/anzal" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/anzal" aria-label="GitHub profile"><i class="fa-brands fa-github"></i></a>
+                <a href="https://instagram.com/anzalpoetry" aria-label="Instagram profile"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
